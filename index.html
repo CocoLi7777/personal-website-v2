@@ -61,6 +61,9 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#experience"
               >Experience</a
             >
@@ -78,9 +81,7 @@
               >Interests</a
             >
           </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-          </li>
+          
         </ul>
       </div>
     </nav>
@@ -99,7 +100,7 @@
             <a href="mailto:coco.li7777@email.com">coco.li7777@email.com</a>
           </div>
           <p class="lead mb-5">
-            From HR specialist to aspiring Software Developer, I’m very passionate and excited to start my new career to be a professional Software Developer with new skill sets. That is my career goal and I'm happy and have a strong passion to learn the latest technology throughout this area and never stop. My skills set are: Javascript ES6, React, Redux, Node.js, MongoDB and so on. As a team member I’m highly responsible, flexible and disciplined. I believe my strongest trait is loving and keeping learning and good team-work.
+            I am an aspiring full-stack software engineer with extensive skills in SDLC, and specialized in front-end development. With hands-on experience in multiple commercial/side projects, I am able to utilize my software development skills to deliver attractive UI and comprehensive web solutions to solve underlying business problems. As a highly committed professional, I have demonstrated the ability to rapidly acquire new information while maintaining a detailed mindset. Meanwhile, with working experience as a HR specialist, I have developed confident, articulate, and professional speaking abilities, with my easy-going personality I can quickly build good working relationships with people from different backgrounds.
           </p>
           <div class="social-icons">
             <a href="https://www.linkedin.com/in/coco-li-90036665/">
@@ -113,6 +114,57 @@
       </section>
 
       <hr class="m-0" />
+
+      <section
+      class="resume-section p-3 p-lg-5 d-flex align-items-center"
+      id="projects"
+    >
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
+        <h3>COVID-19 status data visualization in Australia</h3>
+        <p>This is a side project to help people visualize the current COVID-19 trending in Australia. This web application consumes an API from the community and did some transformation to display the overall trending as well as the trending in each state. 
+        </p>
+        <p>Live demo: <a href='https://c19-trending.herokuapp.com/'>https://c19-trending.herokuapp.com/</a></p>
+        <p>Staging environment: <a href='https://c19-trending-stg.herokuapp.com/'>https://c19-trending-stg.herokuapp.com/</a></p>
+        <p>Source code: <a href='https://github.com/CocoLi7777/COVID-19-trending'>https://github.com/CocoLi7777/COVID-19-trending</a></p>
+        <div>
+          <p><b>Highlights and technology:</b></p>
+
+Front end written in vanilla JavaScript to reduce the script size and for better performance.
+Use node express to build a proxy for the front-end and serve the static files.
+Responsive UI using Bulma CSS framework, mobile friendly.
+Using Chart.js to visualize the data in different formats, like pie chart and bar chart.
+Setup Continuous Deployment using Github and Heroku, seamless development experience from source code to production.
+Use Git branch development for the workflow, separate the dev and release branch and deployment pipeline for staging and production environment.
+Use Google Analytics to track the website usage
+Integrate with Slack webhook to notify any production error logs  in order to resolve the issue in a timely manner.
+Build local file system cache for the data daily for the backup plan for the third party API failure.
+
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="resume-section p-3 p-lg-5 d-flex align-items-center"
+      id="projects"
+    >
+      <div class="w-100">
+        <h3>Supermarket stock availability automation</h3>
+        <p>
+          The idea of this project comes in the current situation to fight COVID-19 pandemic. As the panic buying disrupts supermarket stock and distribution, I would like to create a tool that can help people to receive the availability notification easier and avoid unnecessary movement.
+This project is built with Cypress to run an UI automation to check the supermarket product availability. With the help of the CircleCI scheduled workflow, it will be running periodically to help people check the stock availability for a particular product and receive Slack notification. This is a useful tool that can help people use it on a daily basis, also it is a good practice to try out the end to end testing framework and continuous integration tools. Most importantly, this project is a simple, but not easy, solution to solve real life problems in a cost-effective(no cost) manner.
+
+        </p>
+        <p>Source Code: <a href='https://github.com/CocoLi7777/supermarket_auto'>https://github.com/CocoLi7777/supermarket_auto</a></p>
+        <div>
+          <p><b>Highlights and technology:</b></p>
+          UI automation with Cypress
+          Use CircleCI to run the job to check the availability
+          Setup scheduled cron job on for the CI workflow
+          Integrate Slack for the notification of the availability result
+        </div>
+      </div>
+    </section>
 
       <section
         class="resume-section p-3 p-lg-5 d-flex justify-content-center"
@@ -266,26 +318,39 @@
               <i class="fab fa-php"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-netcore"></i>
-            </li>
-            <li class="list-inline-item">
               <i class="fab fa-npm"></i>
             </li>
           </ul>
 
-          <div class="subheading mb-3">Tools</div>
+          <div class="subheading mb-3">FRAMEWORK AND Tools</div>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-check"></i>
-              VSCode, Chrome debug tool
+              LANGUAGES: JavaScript, C#, PHP, HTML, CSS (BEM), SQL, Java
             </li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Git, Docker
+              Frameworks: Node Express, React/Redux, .Net Core, Laraval, Spring Boot, Bootstrap
             </li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Agile Development tools
+              CI/CD: Circle CI, Github, Heroku, Netlify
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              TOOLS:  Git, Docker, VSCode, Chrome debug tool, Agile tools like Trello, Github Project
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              TESTING:  Jmeter, Postman, Cypress, Moca, familiar with AB testing methodology
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              METHODOLOGY: Agile, TDD, Pair-programming
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              OTHER: Google Analytics
             </li>
           </ul>
         </div>
@@ -313,49 +378,6 @@
       </section>
 
       <hr class="m-0" />
-
-      <section
-        class="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="projects"
-      >
-        <div class="w-100">
-          <h2 class="mb-5">Projects</h2>
-          <h3>In progress ...</h3>
-          <!-- <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer
-            </li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification
-            </li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup> Place - University of Colorado Boulder - Emerging
-              Tech Competition 2009
-            </li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup> Place - University of Colorado Boulder - Adobe
-              Creative Jam 2008 (UI Design Category)
-            </li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              2<sup>nd</sup> Place - University of Colorado Boulder - Emerging
-              Tech Competition 2008
-            </li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup> Place - James Buchanan High School - Hackathon 2006
-            </li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              3<sup>rd</sup> Place - James Buchanan High School - Hackathon 2005
-            </li>
-          </ul> -->
-        </div>
-      </section>
     </div>
 
     <!-- Bootstrap core JavaScript -->
